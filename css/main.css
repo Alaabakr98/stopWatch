@@ -1,0 +1,38 @@
+
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/pexels-stijn-dijkstra-2674064.jpg); 
+   background-size: cover;
+    background-position:center center; 
+}
+.layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+}
+h2{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.btn{
+    font-size: 40px;
+    margin-left: 10px;
+}
+.btn:hover{
+    background-color:rgb(240, 76, 76);
+    outline: none;
+}
+
+@media screen and (max-width : 672px) {
+    .button{
+        display: flex;
+        flex-direction: column;
+     
+    }
+    .btn {
+        margin-bottom: 20px;
+    }
+}
